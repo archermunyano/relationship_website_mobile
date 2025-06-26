@@ -6,32 +6,32 @@ const config = {
   */
 
   // 🔐 Passcode Page
-  correctPasscode: "0000", // Change this to any 4-digit code (the passcode for access)
-  passcodeTitle: "Enter Passcode", // Title displayed on the passcode entry page
-  successMessage: "Yayy!! :)", // Message shown upon successful passcode entry
+  correctPasscode: "0728", // Change this to any 4-digit code (the passcode for access)
+  passcodeTitle: "Mamalihug sakos password diay", // Title displayed on the passcode entry page
+  successMessage: "Niceka gwapa :)", // Message shown upon successful passcode entry
   redirectMessage: "Redirecting...", // Message displayed while redirecting after success
-  incorrectPasscodeMessage: "Incorrect passcode, hint: our anniversary date!", // Message shown for incorrect passcode
+  incorrectPasscodeMessage: "Tip; Birthday ni nimo, gwapa hehe", // Message shown for incorrect passcode
   cancelButtonText: "Cancel", // Text for the cancel button
 
   // 🔍 Question Page
   searchPlaceholder: "Search Google or type a URL", // Placeholder text in the search input
   trendingTitle: "Trending searches", // Title for the trending searches section
   trendingSearches: [
-    "Why is my bf so cute?", // Example trending search query
-    "Why does Rheina love him more?", // Another example query
-    `Rheina's birthdate (coz her bf forgets)`, // A personalized trending search
+    "When is Shelby's Birthday?", // Example trending search query
+    "Asa mani padulong? Dejk", // Another example query
+    `Where did Shelby study for her degree in International Studies?`, // A personalized trending search
   ],
-  proTip: 'Pro tip: try searching "How long have we been together?" ;)', // Helpful tip for users
+  proTip: 'Pro tip: try searching "How long have we been talking?" gwapa', // Helpful tip for users
 
   // ⏳ Timer Page
-  anniversaryDate: "2024-10-18", // 📅 Set your anniversary date here (used for the timer)
-  timerTitle: "We've been together for:", // Title displayed on the timer page
-  timerMessage: "... and still counting <3", // Message shown alongside the timer
+  anniversaryDate: "2025-06-11", // 📅 Set your anniversary date here (used for the timer)
+  timerTitle: "We've been talking for (BFF Premium Employee ang style ani):", // Title displayed on the timer page
+  timerMessage: "Laysho Laysho", // Message shown alongside the timer
   timeUnits: {
-    days: "Days", // Label for days in the timer
-    hours: "Hours", // Label for hours in the timer
-    minutes: "Minutes", // Label for minutes in the timer
-    seconds: "Seconds", // Label for seconds in the timer
+    days: "15 days", // Label for days in the timer
+    hours: "7 hours", // Label for hours in the timer
+    minutes: "24 minutes", // Label for minutes in the timer
+    seconds: "15 seconds", // Label for seconds in the timer
   },
 
   // 📸 Recap Page
@@ -48,50 +48,50 @@ const config = {
   musicTitle: "Songs that remind me of you", // Title for the music page
   musicGallery: [
     {
-      title: "Heavenly", // Title of the song
-      artist: "Cigarettes After Sex", // Artist of the song
+      title: "Folded", // Title of the song
+      artist: "Kehlani", // Artist of the song
       left: "5%", // Positioning on the page
       top: "5%", // Positioning on the page
     },
     {
-      title: "The Boy Is Mine",
-      artist: "Brandy, Monica",
+      title: "Distraction",
+      artist: "Kehlani",
       left: "40%",
       top: "15%",
     },
     {
-      title: "Die With A Smile",
-      artist: "Lady Gaga, Bruno Mars",
+      title: "Snooze",
+      artist: "SZA",
       left: "15%",
       top: "40%",
     },
     {
-      title: "Last Night on Earth",
-      artist: "Green Day",
+      title: "Prinsesa",
+      artist: "6cyclemind",
       left: "30%",
       top: "75%",
     },
     {
-      title: "American Boy",
-      artist: "Estelle, Kanye West",
+      title: "Straight up & Down",
+      artist: "Bruno Mars",
       left: "5%",
       top: "65%",
     },
     {
-      title: "Sparks",
-      artist: "Coldplay",
+      title: "dtMF",
+      artist: "Bad Bunny",
       left: "25%",
       top: "90%",
     },
     {
-      title: "Kiss Me Thru The Phone",
-      artist: "Soulja Boy, Sammie",
+      title: "Let's Do It Again",
+      artist: "J Boog",
       left: "35%",
       top: "50%",
     },
     {
-      title: "Sunsetz",
-      artist: "Cigarettes After Sex",
+      title: "Boyfriend",
+      artist: "Arianna Grande, Social House",
       left: "10%",
       top: "25%",
     },
@@ -100,25 +100,25 @@ const config = {
     // 📝 Message Recap Page
     messageTitle: "Our Messages", // Title for the messages recap page
     messageGallery: [
-      { title: "September 3, 2024", description: "A beautiful day to remember." }, // Message entry
-      { title: "October 5, 2024", description: "Cherishing moments together." },
-      { title: "December 25, 2024", description: "Christmas with love ❤️" },
+      { title: "June 11, 2025", description: "First meet, first day in surigao, and also my first time meeting someone as beautiful as you gwapa, nakahitch pajud ug first kiss heh" }, // Message entry
+      { title: "June 12, 2025", description: "Despiras Day nani, nagkuyog nasab ta balik ani and wanted to ask the (unsa may plano nmo nako gwapa?) question kay para ka andam ta mag tinarong ba or lingaw2 lang AHAHHAHAHAHAHA" },
+      { title: "June 14, 2025", description: "By far the best, and also the worst day nako ni, the best, kay I actually got to be intimate with you and get to know you alot more, but also the worst, kay last ni nato kita gwapa, my fav pic of you diay sab ni heh" },
     ],
   
     // 📸 Picture Recap Page
     pictureTitle: "Our Pictures", // Title for the pictures recap page
     pictureGallery: [
-      { title: "January 1, 2024", description: "New Year's Celebration 🎉" }, // Picture entry
-      { title: "February 14, 2024", description: "Valentine's Day 💕" },
-      { title: "March 10, 2024", description: "Beach trip memories 🏖️" },
+      { title: "Lanusa", description: "Hahays sayang wa kaayo ka pic ta duha gwapa" }, // Picture entry
+      { title: "Surf Camp", description: "Kuwang kayng pics kay malimtan ang phone basta kita mag tabi bb" },
+      { title: "Surigao", description: "Laysho memories, na apiki lagi kay murag mawang phone basta kita kuyog madam" },
     ],
   
 
   // 💌 Love Letter Page
-  loveLetterMessage: "Hi, I love you so much💖", // Message displayed on the love letter page
+  loveLetterMessage: "Congratulations once again, Shelby Eliane Espinosa Bagcat💖", // Message displayed on the love letter page
 
   // 🎇 Closing Page
-  closingMessage: "Thank you for everything, my love! 💖 Wishing us many more wonderful years together.", // Closing message displayed
+  closingMessage: "As one door closes, another opens, Life will be kind to you, and all the good fortunes will come in time, Gwapa :).", // Closing message displayed
 
   /* 
   ████████████████████████████████████████
@@ -140,8 +140,8 @@ const config = {
 
   // 🔍 Search Queries (Only change if modifying search functionality)
   correctSearchQueries: [
-    "How long have we been together?", // Example of a correct search query
-    "how long have we been together", // Another example of a correct search query
+    "How long have we been talking?", // Example of a correct search query
+    "how long have we been talking", // Another example of a correct search query
   ],
 };
 

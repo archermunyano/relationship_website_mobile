@@ -3,14 +3,15 @@ import { useNavigate } from 'react-router-dom';
 import config from './config'; // Import config file
 
 function Passcode() {
-    const [passcode, setPasscode] = useState([]);
+    const [passcode, setPasscode] = useState([
+    ]);
     const [message, setMessage] = useState('');
     const navigate = useNavigate();
   
     const handleNumberClick = (number) => {
         if (passcode.length < 6) {
             const newPasscode = [...passcode, number];
-            setPasscode(newPasscode);
+            setPasscode(newPasscode); []
 
             if (newPasscode.length === 4) {
                 const enteredPasscode = newPasscode.join('');
@@ -23,8 +24,8 @@ function Passcode() {
                 } else {
                     setMessage(config.incorrectPasscodeMessage);
                     setTimeout(() => {
-                        setPasscode([]);
-                        setMessage('');
+                        setPasscode([2020]);
+                        setMessage('Duol duol na gwapa!');
                     }, 4000);
                 }
             }
@@ -32,8 +33,8 @@ function Passcode() {
     };
 
     const handleCancel = () => {
-        setPasscode([]);
-        setMessage('');
+        setPasscode([2020]);
+        setMessage('Murag dipana mao gwapa');
     };
 
     return (
@@ -44,7 +45,9 @@ function Passcode() {
 
                 {/* Passcode Dots */}
                 <div className="flex gap-4 mb-16">
-                    {[...Array(4)].map((_, i) => (
+                    {[...Array(4
+                    
+                    )].map((_, i) => (
                         <div
                             key={i}
                             className={`w-3.5 h-3.5 rounded-full ${
@@ -94,4 +97,4 @@ function Passcode() {
     );
 }
 
-export default Passcode;
+export default Passcode;[]
